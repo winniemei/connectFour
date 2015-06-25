@@ -57,13 +57,17 @@ var board = [
 			[a1, b1, c1, d1, e1, f1, g1],
 			];
 
-var button = $("button");
+var columnA = $("#a");
 
-var dropChip = function(){
-	alert("hey");
-}
+var dropChipA = function(){
+	for(var i = 5; i <= 5; i--){
+		if(board[i][0].hasClass("empty")){
+			return (board[i][0].removeClass("empty").addClass("empty1"));
+	}
+	}
+};
 
-button.click(dropChip);
+columnA.click(dropChipA);
 
 });
 
