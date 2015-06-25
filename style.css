@@ -2,15 +2,24 @@
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
-	background-color: pink;
+	background-color: white;
 }
 
 .empty1 {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
+	background-color: pink;
+}
+
+.empty2 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
 	background-color: grey;
 }
+
+
 
 /*.button{
 	height: 200px;
