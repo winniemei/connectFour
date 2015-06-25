@@ -1,0 +1,20 @@
+.empty {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: pink;
+}
+
+.empty1 {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: grey;
+}
+
+/*.button{
+	height: 200px;
+	width: 200px;
+	border: none;	
+	;
+}*/
