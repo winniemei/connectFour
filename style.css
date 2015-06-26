@@ -1,9 +1,10 @@
-
-h1 {
-	font: helvetica;
+p1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 70px;
 }
 
 .empty {
+/*	left: 500px;*/
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
@@ -11,6 +12,7 @@ h1 {
 }
 
 .empty1 {
+	/*left: 500px;*/
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
@@ -18,11 +20,13 @@ h1 {
 }
 
 .empty2 {
+	/*left: 500px;*/
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
 	background-color: grey;
 }
+
 
 
 
