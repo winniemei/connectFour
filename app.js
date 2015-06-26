@@ -1,7 +1,5 @@
 
 $(function(){ 
-	
-
 
 var a1 = $("#a1");
 var b1 = $("#b1");
@@ -94,10 +92,7 @@ turn = 1;
 
 	var dropChipB = function(){
 		turn += 1;
-		console.log(turn)
 		if (turn % 2 === 0){
-			console.log(turn);
-		
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][1].hasClass("empty")){
@@ -107,9 +102,6 @@ turn = 1;
 	}
 
 		else {
-			console.log(turn);
-		
-		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][1].hasClass("empty1" && "empty")){
 				return (board[i][1].removeClass("empty1" && "empty").addClass("empty2"));
@@ -124,10 +116,8 @@ turn = 1;
 
 	var dropChipC = function(){
 		turn += 1;
-		console.log(turn)
 		if (turn % 2 === 0){
-			console.log(turn);
-		
+	
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][2].hasClass("empty")){
@@ -137,8 +127,6 @@ turn = 1;
 	}
 
 		else {
-			console.log(turn);
-		
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][2].hasClass("empty1" && "empty")){
@@ -153,10 +141,7 @@ turn = 1;
 
 	var dropChipD = function(){
 		turn += 1;
-		console.log(turn)
 		if (turn % 2 === 0){
-			console.log(turn);
-		
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][3].hasClass("empty")){
@@ -166,8 +151,6 @@ turn = 1;
 	}
 
 		else {
-			console.log(turn);
-		
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][3].hasClass("empty1" && "empty")){
@@ -182,11 +165,8 @@ turn = 1;
 
 	var dropChipE = function(){
 		turn += 1;
-		console.log(turn)
 		if (turn % 2 === 0){
-			console.log(turn);
-		
-		
+			
 		for(var i = 5; i <= 5; i--){
 			if(board[i][4].hasClass("empty")){
 				return (board[i][4].removeClass("empty").addClass("empty1"));
@@ -195,8 +175,6 @@ turn = 1;
 	}
 
 		else {
-			console.log(turn);
-		
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][4].hasClass("empty1" && "empty")){
@@ -211,10 +189,8 @@ turn = 1;
 
 	var dropChipF = function(){
 		turn += 1;
-		console.log(turn)
-		if (turn % 2 === 0){
-			console.log(turn);
 		
+		if (turn % 2 === 0){
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][5].hasClass("empty")){
@@ -224,9 +200,7 @@ turn = 1;
 	}
 
 		else {
-			console.log(turn);
-		
-		
+	
 		for(var i = 5; i <= 5; i--){
 			if(board[i][5].hasClass("empty1" && "empty")){
 				return (board[i][5].removeClass("empty1" && "empty").addClass("empty2"));
@@ -240,10 +214,7 @@ turn = 1;
 
 	var dropChipG = function(){
 		turn += 1;
-		console.log(turn)
 		if (turn % 2 === 0){
-			console.log(turn);
-		
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][6].hasClass("empty")){
@@ -252,9 +223,7 @@ turn = 1;
 		}
 	}
 
-		else {
-			console.log(turn);
-		
+		else {	
 		
 		for(var i = 5; i <= 5; i--){
 			if(board[i][6].hasClass("empty1" && "empty")){
@@ -266,72 +235,6 @@ turn = 1;
 	};
 
 
-	// var columnB = $("#b");
-
-	// var dropChipB = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][1].hasClass("empty")){
-	// 			return (board[i][1].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnC = $("#c");
-
-	// var dropChipC = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][2].hasClass("empty")){
-	// 			return (board[i][2].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnD = $("#d")
-
-	// var dropChipD = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][3].hasClass("empty")){
-	// 			return (board[i][3].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnE = $("#e")
-
-	// var dropChipE = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][4].hasClass("empty")){
-	// 			return (board[i][4].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnF = $("#f")
-
-	// var dropChipF = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][5].hasClass("empty")){
-	// 			return (board[i][5].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnG = $("#g")
-
-	// var dropChipG = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][6].hasClass("empty")){
-	// 			return (board[i][6].removeClass("empty").addClass("empty1"));
-	// 		}
-
-	// 	}
-	// }
-
 	columnA.click(dropChipA);
 	columnB.click(dropChipB);
 	columnC.click(dropChipC);
@@ -339,144 +242,14 @@ turn = 1;
 	columnE.click(dropChipE);
 	columnF.click(dropChipF);
 	columnG.click(dropChipG);
+
+
+
+
+
+
+
 });
-	// var columnA = $("#a");
 
-	// var dropChipA = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][0].hasClass("empty")){
-	// 			return (board[i][0].removeClass("empty").addClass("empty1"));
-	// 	}
-	// 	}
-	// };
-
-	// var columnB = $("#b");
-
-	// var dropChipB = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][1].hasClass("empty")){
-	// 			return (board[i][1].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnC = $("#c");
-
-	// var dropChipC = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][2].hasClass("empty")){
-	// 			return (board[i][2].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnD = $("#d")
-
-	// var dropChipD = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][3].hasClass("empty")){
-	// 			return (board[i][3].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnE = $("#e")
-
-	// var dropChipE = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][4].hasClass("empty")){
-	// 			return (board[i][4].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnF = $("#f")
-
-	// var dropChipF = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][5].hasClass("empty")){
-	// 			return (board[i][5].removeClass("empty").addClass("empty1"));
-	// 	}
-
-	// 	}
-	// };
-
-	// var columnG = $("#g")
-
-	// var dropChipG = function(){
-	// 	for(var i = 5; i <= 5; i--){
-	// 		if(board[i][6].hasClass("empty")){
-	// 			return (board[i][6].removeClass("empty").addClass("empty1"));
-	// 		}
-
-	// 	}
-	// };
-
-
-
-
-
-
-
-
-
-
-// var turn = 0;
-
-// $('#a, #b, #c, #d, #e, #f, #g').click(dropChip)
-
-
-// var dropChip = function(){
-// 	for (var i = 5; i >= 0; i--){
-// 		if (turn == 0){
-// 			if ($(this).children().eq(i).attr("class") == "empty"){
-// 			$(this).children().eq(i).attr("class","empty1");
-// 			turn += 1
-// 			}
-
-// 		}		
-// }
-
-
-
-// var columnA = $("#a");
-
-// var dropChipA = function(){
-// 	for(var i = 5; i <= 5; i--){
-// 		if(turn == 0){
-// 			if(board[i][0].hasClass("empty")){
-// 				return (board[i][0].removeClass("empty").addClass("empty1"));
-// 				turn = 1;
-// 		}
-// 		else
-// 			turn = 0;
-// 			return(board[i][0].removeClass("empty").addClass("empty2"));
-// 		}
-// 	}
-// };
-
-
-
-// var columnB = $("#b");
-
-// var dropChipB = function(){
-// 	for(var i = 5; i <= 5; i--){
-// 		if(turn % 2 == 0){
-// 		if(board[i][1].hasClass("empty")){
-// 			return (board[i][0].removeClass("empty").addClass("empty1"));
-// 			turn += 1
-// 		}
-// 		else
-// 			return(board[i][0].removeClass("empty").addClass("empty1"))
-// 		}
-// 	}
-// };
-
-// columnA.click(dropChipA);
-// columnB.click(dropChipB);
 
 
