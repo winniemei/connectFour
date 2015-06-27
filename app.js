@@ -163,14 +163,14 @@ $(function() {
 	var dropChipA = function(){
 		turn += 1;
 		if (turn % 2 === 0){
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][0].hasClass("empty")){
 					(board[i][0].removeClass("empty").addClass("empty1"));
 					break;
 				}
 			}
 		}else {
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 5; i--){
 				if(board[i][0].hasClass("empty1" && "empty")){
 					(board[i][0].removeClass("empty1" && "empty").addClass("empty2"));
 					break;
@@ -190,7 +190,7 @@ $(function() {
 			turn += 1;
 			if (turn % 2 === 0){
 			
-				for(var i = 5; i <= 5; i--){
+				for(var i = 5; i >= 0; i--){
 					if(board[i][1].hasClass("empty")){
 						(board[i][1].removeClass("empty").addClass("empty1"));
 						break;
@@ -198,7 +198,7 @@ $(function() {
 				}
 			}
 	 		else {
-				for(var i = 5; i <= 5; i--){
+				for(var i = 5; i >= 0; i--){
 					if(board[i][1].hasClass("empty1" && "empty")){
 						(board[i][1].removeClass("empty1" && "empty").addClass("empty2"));
 						break;
@@ -215,7 +215,7 @@ $(function() {
 			turn += 1;
 			if (turn % 2 === 0){
 			
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][2].hasClass("empty")){
 					(board[i][2].removeClass("empty").addClass("empty1"));
 					break;
@@ -225,7 +225,7 @@ $(function() {
 
 			else {
 			
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][2].hasClass("empty1" && "empty")){
 					return (board[i][2].removeClass("empty1" && "empty").addClass("empty2"));
 				}
@@ -240,7 +240,7 @@ $(function() {
 			turn += 1;
 			if (turn % 2 === 0){
 			
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][3].hasClass("empty")){
 				(board[i][3].removeClass("empty").addClass("empty1"));
 				break;
@@ -250,7 +250,7 @@ $(function() {
 
 			else {
 			
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][3].hasClass("empty1" && "empty")){
 				(board[i][3].removeClass("empty1" && "empty").addClass("empty2"));
 				break;
@@ -267,7 +267,7 @@ $(function() {
 		
 			if (turn % 2 === 0){
 				
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][4].hasClass("empty")){
 					(board[i][4].removeClass("empty").addClass("empty1"));
 					break;
@@ -277,7 +277,7 @@ $(function() {
 
 			else {
 			
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][4].hasClass("empty1" && "empty")){
 					(board[i][4].removeClass("empty1" && "empty").addClass("empty2"));
 					break;
@@ -295,7 +295,7 @@ $(function() {
 			
 			if (turn % 2 === 0){
 			
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][5].hasClass("empty")){
 					(board[i][5].removeClass("empty").addClass("empty1"));
 					break;
@@ -304,7 +304,7 @@ $(function() {
 		}
 			else {
 		
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][5].hasClass("empty1" && "empty")){
 					(board[i][5].removeClass("empty1" && "empty").addClass("empty2"));
 					break;
@@ -320,7 +320,7 @@ $(function() {
 		
 			turn += 1;
 			if (turn % 2 === 0){
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][6].hasClass("empty")){
 					(board[i][6].removeClass("empty").addClass("empty1"));
 					break;
@@ -330,7 +330,7 @@ $(function() {
 
 			else {	
 			
-			for(var i = 5; i <= 5; i--){
+			for(var i = 5; i >= 0; i--){
 				if(board[i][6].hasClass("empty1" && "empty")){
 					(board[i][6].removeClass("empty1" && "empty").addClass("empty2"));
 					break;
