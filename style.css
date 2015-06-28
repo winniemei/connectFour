@@ -1,6 +1,7 @@
 p1 {
 	font-family: 'Indie Flower', cursive;
-	font-size: 70px;
+	font-size: 80px;
+	color: white;
 }
 
 .empty {
@@ -16,7 +17,7 @@ p1 {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
-	background-color: pink;
+	background-color: #F3D386;
 }
 
 .empty2 {
@@ -24,15 +25,61 @@ p1 {
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
-	background-color: grey;
+	background-color: #EC907E;
+}
+
+
+img {
+	position: absolute;
+	top: 440px;
+	left: 620px;
+}
+
+#a {
+	position: absolute;
+	left: 400;
+}
+
+#b {
+	position: absolute;
+	left: 460;
+}
+
+#c {
+	position: absolute;
+	left: 520;
+}
+
+#d {
+	position: absolute;
+	left: 580;
+}
+
+#e {
+	position: absolute;
+	left: 640;
+}
+
+#f {
+	position: absolute;
+	left: 700;
+}
+
+#g {
+	position: absolute;
+	left: 760;
+}
+
+#audio {
+	top: 600px;
+}
+
+
+#pooh {
+	font-family: 'Indie Flower', cursive;
+	font-size: 40px;
+	color: white;
 }
 
 
 
-
-/*.button{
-	height: 200px;
-	width: 200px;
-	border: none;	
-	;
-}*/

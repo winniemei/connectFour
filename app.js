@@ -1,4 +1,3 @@
-
 $(function() { 
 		var a1 = $("#a1");
 		var b1 = $("#b1");
@@ -350,9 +349,6 @@ $(function() {
 	columnG.click(dropChipG);
 
 }); 
-
-
-
 
 
 
